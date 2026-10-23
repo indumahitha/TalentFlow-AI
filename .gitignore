@@ -1,0 +1,31 @@
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Environment secrets
+.env
+.env.*
+!.env.example
+
+# Frontend
+node_modules/
+frontend/dist/
+
+# Terraform
+infrastructure/.terraform/
+infrastructure/*.tfstate
+infrastructure/*.tfstate.*
+infrastructure/*.tfplan
+infrastructure/crash.log
+
+# Editors and operating system
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Uploaded candidate documents
+backend/uploads/*
+!backend/uploads/.gitkeep
